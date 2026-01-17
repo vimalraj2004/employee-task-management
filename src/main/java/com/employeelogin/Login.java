@@ -68,7 +68,7 @@ public class Login extends HttpServlet {
             // Centered content
             response.getWriter().println("<div class='center'>");
             response.getWriter().println("<h2 style='color:green;'>Login Successful!</h2>");
-            response.getWriter().println("<p>Welcome, " + username + ".</p>");
+            response.getWriter().println("<p>WELCOME, " + username + ".</p>");
             response.getWriter().println("<p><b>Your Task:</b> " + task + "</p>"); // 👈 show the task here
             response.getWriter().println("</div>");
 
